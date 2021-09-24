@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&family=Raleway:wght@200&display=swap');
+@font-face {
+    font-family: "teamOg";
+    src: url("fonts/dota_2_Style_text.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+}
+
+.html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+    display: inline-block
+}
+
+.nav a:hover {
+    background-color: slategray;
+}
+
+.nav {
+    text-align: center;
+    border-bottom: 1px solid snow;
+    font-weight: lighter;
+    font-size: 120%;
+
+}
+
+.nav li{
+    padding: 0 5%;
+}
+
+.main_header {
+    background-image: url(images/Header_background.jpg);
+    background-size: cover;
+}
+
+.teamName {
+    text-align: center;
+    font-size: 50px;
+    font-family: "teamOg";
+    color: white;
+    font-weight: normal;
+    margin: 0;
+}
